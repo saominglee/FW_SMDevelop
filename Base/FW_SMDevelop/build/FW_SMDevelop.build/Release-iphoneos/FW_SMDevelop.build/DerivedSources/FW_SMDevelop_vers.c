@@ -1,0 +1,1 @@
+ const unsigned char FW_SMDevelopVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:FW_SMDevelop  PROJECT:FW_SMDevelop-1" "\n"; const double FW_SMDevelopVersionNumber __attribute__ ((used)) = (double)1.;
