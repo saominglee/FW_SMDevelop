@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F8DB81E11AD2C63D00C14843 /* AG_FW_SMDevelop_Button */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F8DB81E41AD2C63D00C14843 /* Build configuration list for PBXAggregateTarget "AG_FW_SMDevelop_Button" */;
+			buildPhases = (
+				F8DB81E51AD2C64200C14843 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AG_FW_SMDevelop_Button;
+			productName = AG_FW_SMDevelop_Button;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		768C68CB1ACCD1B000EA7FC3 /* FW_SMDevelop_Button.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768C68BF1ACCD1B000EA7FC3 /* FW_SMDevelop_Button.framework */; };
+		768C68D21ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C68D11ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.m */; };
+		768C68DE1ACCD1F200EA7FC3 /* WZFlashButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 768C68DC1ACCD1F200EA7FC3 /* WZFlashButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768C68DF1ACCD1F200EA7FC3 /* WZFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C68DD1ACCD1F200EA7FC3 /* WZFlashButton.m */; };
+		768C68E81ACCF07E00EA7FC3 /* QBFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 768C68E61ACCF07E00EA7FC3 /* QBFlatButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768C68E91ACCF07E00EA7FC3 /* QBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C68E71ACCF07E00EA7FC3 /* QBFlatButton.m */; };
+		768C68F21ACD201F00EA7FC3 /* LBHamburgerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 768C68F01ACD201F00EA7FC3 /* LBHamburgerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768C68F31ACD201F00EA7FC3 /* LBHamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C68F11ACD201F00EA7FC3 /* LBHamburgerButton.m */; };
+		768C69051ACD295200EA7FC3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 768C69001ACD295200EA7FC3 /* FontAwesome.ttf */; };
+		768C69061ACD295200EA7FC3 /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 768C69011ACD295200EA7FC3 /* NSString+FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768C69071ACD295200EA7FC3 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C69021ACD295200EA7FC3 /* NSString+FontAwesome.m */; };
+		768C69081ACD295200EA7FC3 /* UIButton+Bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 768C69031ACD295200EA7FC3 /* UIButton+Bootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768C69091ACD295200EA7FC3 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C69041ACD295200EA7FC3 /* UIButton+Bootstrap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768C68CC1ACCD1B000EA7FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768C68B61ACCD1B000EA7FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768C68BE1ACCD1B000EA7FC3;
+			remoteInfo = FW_SMDevelop_Button;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		768C68BF1ACCD1B000EA7FC3 /* FW_SMDevelop_Button.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FW_SMDevelop_Button.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C68C31ACCD1B000EA7FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768C68CA1ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FW_SMDevelop_ButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C68D01ACCD1B000EA7FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768C68D11ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FW_SMDevelop_ButtonTests.m; sourceTree = "<group>"; };
+		768C68DC1ACCD1F200EA7FC3 /* WZFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZFlashButton.h; sourceTree = "<group>"; };
+		768C68DD1ACCD1F200EA7FC3 /* WZFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZFlashButton.m; sourceTree = "<group>"; };
+		768C68E61ACCF07E00EA7FC3 /* QBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBFlatButton.h; sourceTree = "<group>"; };
+		768C68E71ACCF07E00EA7FC3 /* QBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBFlatButton.m; sourceTree = "<group>"; };
+		768C68F01ACD201F00EA7FC3 /* LBHamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBHamburgerButton.h; sourceTree = "<group>"; };
+		768C68F11ACD201F00EA7FC3 /* LBHamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBHamburgerButton.m; sourceTree = "<group>"; };
+		768C69001ACD295200EA7FC3 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		768C69011ACD295200EA7FC3 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		768C69021ACD295200EA7FC3 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		768C69031ACD295200EA7FC3 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		768C69041ACD295200EA7FC3 /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768C68BB1ACCD1B000EA7FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C68C71ACCD1B000EA7FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C68CB1ACCD1B000EA7FC3 /* FW_SMDevelop_Button.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768C68B51ACCD1B000EA7FC3 = {
+			isa = PBXGroup;
+			children = (
+				768C68C11ACCD1B000EA7FC3 /* FW_SMDevelop_Button */,
+				768C68CE1ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests */,
+				768C68C01ACCD1B000EA7FC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768C68C01ACCD1B000EA7FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768C68BF1ACCD1B000EA7FC3 /* FW_SMDevelop_Button.framework */,
+				768C68CA1ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768C68C11ACCD1B000EA7FC3 /* FW_SMDevelop_Button */ = {
+			isa = PBXGroup;
+			children = (
+				768C68FF1ACD295200EA7FC3 /* StrapButton */,
+				768C68EF1ACD201F00EA7FC3 /* HamburgerButton */,
+				768C68E51ACCF07E00EA7FC3 /* QBFlatButton */,
+				768C68DB1ACCD1F200EA7FC3 /* WZRippleButton */,
+				768C68C21ACCD1B000EA7FC3 /* Supporting Files */,
+			);
+			path = FW_SMDevelop_Button;
+			sourceTree = "<group>";
+		};
+		768C68C21ACCD1B000EA7FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768C68C31ACCD1B000EA7FC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768C68CE1ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				768C68D11ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.m */,
+				768C68CF1ACCD1B000EA7FC3 /* Supporting Files */,
+			);
+			path = FW_SMDevelop_ButtonTests;
+			sourceTree = "<group>";
+		};
+		768C68CF1ACCD1B000EA7FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768C68D01ACCD1B000EA7FC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768C68DB1ACCD1F200EA7FC3 /* WZRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				768C68DC1ACCD1F200EA7FC3 /* WZFlashButton.h */,
+				768C68DD1ACCD1F200EA7FC3 /* WZFlashButton.m */,
+			);
+			path = WZRippleButton;
+			sourceTree = "<group>";
+		};
+		768C68E51ACCF07E00EA7FC3 /* QBFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				768C68E61ACCF07E00EA7FC3 /* QBFlatButton.h */,
+				768C68E71ACCF07E00EA7FC3 /* QBFlatButton.m */,
+			);
+			path = QBFlatButton;
+			sourceTree = "<group>";
+		};
+		768C68EF1ACD201F00EA7FC3 /* HamburgerButton */ = {
+			isa = PBXGroup;
+			children = (
+				768C68F01ACD201F00EA7FC3 /* LBHamburgerButton.h */,
+				768C68F11ACD201F00EA7FC3 /* LBHamburgerButton.m */,
+			);
+			path = HamburgerButton;
+			sourceTree = "<group>";
+		};
+		768C68FF1ACD295200EA7FC3 /* StrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				768C69001ACD295200EA7FC3 /* FontAwesome.ttf */,
+				768C69011ACD295200EA7FC3 /* NSString+FontAwesome.h */,
+				768C69021ACD295200EA7FC3 /* NSString+FontAwesome.m */,
+				768C69031ACD295200EA7FC3 /* UIButton+Bootstrap.h */,
+				768C69041ACD295200EA7FC3 /* UIButton+Bootstrap.m */,
+			);
+			path = StrapButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		768C68BC1ACCD1B000EA7FC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C68E81ACCF07E00EA7FC3 /* QBFlatButton.h in Headers */,
+				768C68F21ACD201F00EA7FC3 /* LBHamburgerButton.h in Headers */,
+				768C69081ACD295200EA7FC3 /* UIButton+Bootstrap.h in Headers */,
+				768C68DE1ACCD1F200EA7FC3 /* WZFlashButton.h in Headers */,
+				768C69061ACD295200EA7FC3 /* NSString+FontAwesome.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		768C68BE1ACCD1B000EA7FC3 /* FW_SMDevelop_Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768C68D51ACCD1B000EA7FC3 /* Build configuration list for PBXNativeTarget "FW_SMDevelop_Button" */;
+			buildPhases = (
+				768C68BA1ACCD1B000EA7FC3 /* Sources */,
+				768C68BB1ACCD1B000EA7FC3 /* Frameworks */,
+				768C68BC1ACCD1B000EA7FC3 /* Headers */,
+				768C68BD1ACCD1B000EA7FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FW_SMDevelop_Button;
+			productName = FW_SMDevelop_Button;
+			productReference = 768C68BF1ACCD1B000EA7FC3 /* FW_SMDevelop_Button.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		768C68C91ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768C68D81ACCD1B000EA7FC3 /* Build configuration list for PBXNativeTarget "FW_SMDevelop_ButtonTests" */;
+			buildPhases = (
+				768C68C61ACCD1B000EA7FC3 /* Sources */,
+				768C68C71ACCD1B000EA7FC3 /* Frameworks */,
+				768C68C81ACCD1B000EA7FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768C68CD1ACCD1B000EA7FC3 /* PBXTargetDependency */,
+			);
+			name = FW_SMDevelop_ButtonTests;
+			productName = FW_SMDevelop_ButtonTests;
+			productReference = 768C68CA1ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768C68B61ACCD1B000EA7FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SMan;
+				TargetAttributes = {
+					768C68BE1ACCD1B000EA7FC3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					768C68C91ACCD1B000EA7FC3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F8DB81E11AD2C63D00C14843 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 768C68B91ACCD1B000EA7FC3 /* Build configuration list for PBXProject "FW_SMDevelop_Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 768C68B51ACCD1B000EA7FC3;
+			productRefGroup = 768C68C01ACCD1B000EA7FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768C68BE1ACCD1B000EA7FC3 /* FW_SMDevelop_Button */,
+				768C68C91ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests */,
+				F8DB81E11AD2C63D00C14843 /* AG_FW_SMDevelop_Button */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768C68BD1ACCD1B000EA7FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C69051ACD295200EA7FC3 /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C68C81ACCD1B000EA7FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8DB81E51AD2C64200C14843 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#动态库\n# Sets the target folders and the final framework product.\nFMK_NAME=${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=Build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768C68BA1ACCD1B000EA7FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C69071ACD295200EA7FC3 /* NSString+FontAwesome.m in Sources */,
+				768C68DF1ACCD1F200EA7FC3 /* WZFlashButton.m in Sources */,
+				768C69091ACD295200EA7FC3 /* UIButton+Bootstrap.m in Sources */,
+				768C68F31ACD201F00EA7FC3 /* LBHamburgerButton.m in Sources */,
+				768C68E91ACCF07E00EA7FC3 /* QBFlatButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C68C61ACCD1B000EA7FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C68D21ACCD1B000EA7FC3 /* FW_SMDevelop_ButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768C68CD1ACCD1B000EA7FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768C68BE1ACCD1B000EA7FC3 /* FW_SMDevelop_Button */;
+			targetProxy = 768C68CC1ACCD1B000EA7FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		768C68D31ACCD1B000EA7FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		768C68D41ACCD1B000EA7FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		768C68D61ACCD1B000EA7FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FW_SMDevelop_Button/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		768C68D71ACCD1B000EA7FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FW_SMDevelop_Button/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		768C68D91ACCD1B000EA7FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FW_SMDevelop_ButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		768C68DA1ACCD1B000EA7FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FW_SMDevelop_ButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8DB81E21AD2C63D00C14843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8DB81E31AD2C63D00C14843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768C68B91ACCD1B000EA7FC3 /* Build configuration list for PBXProject "FW_SMDevelop_Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768C68D31ACCD1B000EA7FC3 /* Debug */,
+				768C68D41ACCD1B000EA7FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768C68D51ACCD1B000EA7FC3 /* Build configuration list for PBXNativeTarget "FW_SMDevelop_Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768C68D61ACCD1B000EA7FC3 /* Debug */,
+				768C68D71ACCD1B000EA7FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768C68D81ACCD1B000EA7FC3 /* Build configuration list for PBXNativeTarget "FW_SMDevelop_ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768C68D91ACCD1B000EA7FC3 /* Debug */,
+				768C68DA1ACCD1B000EA7FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DB81E41AD2C63D00C14843 /* Build configuration list for PBXAggregateTarget "AG_FW_SMDevelop_Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DB81E21AD2C63D00C14843 /* Debug */,
+				F8DB81E31AD2C63D00C14843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768C68B61ACCD1B000EA7FC3 /* Project object */;
+}
